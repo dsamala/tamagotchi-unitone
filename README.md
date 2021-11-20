@@ -8,7 +8,9 @@ To create a working game using elements of HTML, CSS, JS, jQuery, and APIs/AJAX.
 
 Process:
 
-1.) Create Wireframe (https://www.figma.com/file/5sLvlW47IUp7DPJBmx6KXQ/Wireframe-Unit-1?node-id=0%3A1)
+1.) Create Wireframe 
+
+![Wireframe Unit 1](https://user-images.githubusercontent.com/92316626/142738419-cc1a753b-4709-411a-ab3a-57b1e779d3b7.png)
 
   Breakdown:
   Three Sections
@@ -17,9 +19,8 @@ Process:
     C.) Event Page
     
 2.) User Story
-  SELECTION
+  INITIAL PAGE 
   As a user:
-    I should be able to choose my pet
     I should be able to name my pet
     
     
@@ -28,9 +29,10 @@ Process:
   MAIN PAGE
   As a user:
     > I should be able to see my pet's stats - to know what they need and care for them
-    > I should be able to feed my pet
-    > I should be able to let my pet sleep
-    > I should be able to play with my pet
+      > I should be able to feed my pet
+      > I should be able to let my pet sleep
+      > I should be able to play with my pet
+    > I should be able to see how old my pet is
     
   -TRANSITION-
   
@@ -53,4 +55,5 @@ Process:
     2-4 presets are made as options
     Actions are methods inside which interact with 
   
+
 
