@@ -1,6 +1,9 @@
+/* page1 CSS formatting */
+
 h1 {
     text-align: center;
     font-size: 50px;
+    font-family: 'MedievalSharp';
 }
 
 .petbox {
@@ -13,6 +16,7 @@ h1 {
         border-color: black;
         border-style: solid;
         align-self: center;
+    
 }
 
 .petbox img {
@@ -24,6 +28,7 @@ h1 {
     font-size: 50px;
     display: flex;
     justify-content: center;
+    font-family: 'MedievalSharp';
 }
 
 #inputbox {
@@ -31,9 +36,119 @@ h1 {
     display: flex;
     justify-content: center;
     align-self: center;
+    
 }
 
 #namebox2{
     width: 300px;
     height: 50px;
+
+}
+
+#navi {
+    display: flex;
+    align-content: center;
+}
+
+#startgame {
+    background-color: #7c142c;
+    color: #cc8c54;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'MedievalSharp';
+}
+
+
+/* page 2 CSS formatting */
+
+ h3{
+    font-size: 65px;
+    text-align: center;
+    font-family: 'MedievalSharp';
+}
+
+#healthProgress {
+    
+    position: absolute;
+    top: 275px;
+    left: 100px;
+    background-color: gray;
+    height: 30px;
+    width: 25%;
+    font-family: 'MedievalSharp';
+}
+
+#healthBar {
+    
+    font-size: 30px;
+    width: 15%;
+    height: 30px;
+    background-color: #e4934c;
+}
+
+#hungerProgress {
+    
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    background-color: gray;
+    height: 30px;
+    width: 25%;
+    font-family: 'MedievalSharp';
+    color: 
+}
+
+#hungerBar {
+    
+    font-size: 30px;
+    width: 25%;
+    height: 30px;
+    background-color: #e4934c;
+}
+
+#fatigueProgress {
+    
+    position: absolute;
+    top: 425px;
+    left: 100px;
+    background-color: gray;
+    height: 30px;
+    width: 25%;
+    font-family: 'MedievalSharp';
+}
+
+#fatigueBar {
+    
+    font-size: 30px;
+    width: 35%;
+    height: 30px;
+    background-color: #e4934c;
+}
+
+#age {
+    position: absolute;
+    font-size: 30px;
+    top: 275px;
+    right: 450px;
+    
+    height: 30px;
+    width: 5%;
+    font-family: 'MedievalSharp';
+}
+
+.btn-group{
+    
+    display: flex;
+    justify-content: center;
+        
+}
+
+.action {
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'MedievalSharp';
+    padding: 10px;
 }
