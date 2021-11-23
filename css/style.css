@@ -82,7 +82,7 @@ h1 {
     font-family: 'MedievalSharp';
 }
 
-#healthProgress {
+#hungerBar {
     
     position: absolute;
     top: 275px;
@@ -93,15 +93,15 @@ h1 {
     font-family: 'MedievalSharp';
 }
 
-#healthBar {
+#hungerProgress {
     
     font-size: 30px;
-    width: 15%;
+    width: 0%;
     height: 30px;
     background-color: #e4934c;
 }
 
-#hungerProgress {
+#fatigueBar{
     
     position: absolute;
     top: 350px;
@@ -110,18 +110,18 @@ h1 {
     height: 30px;
     width: 25%;
     font-family: 'MedievalSharp';
-    color: 
+
 }
 
-#hungerBar {
+#fatigueProgress {
     
     font-size: 30px;
-    width: 25%;
+    width: 0%;
     height: 30px;
     background-color: #e4934c;
 }
 
-#fatigueProgress {
+#swordBar {
     
     position: absolute;
     top: 425px;
@@ -132,12 +132,14 @@ h1 {
     font-family: 'MedievalSharp';
 }
 
-#fatigueBar {
+#swordProgress {
     
     font-size: 30px;
-    width: 35%;
+    width: 100%;
     height: 30px;
     background-color: #e4934c;
+    position: absolute;
+    
 }
 
 #age {
