@@ -1,14 +1,12 @@
-function miccheck () {
-    console.log('yea we got this')
-}
-miccheck();
 
-// window.onload = function() {
-//     if (window.jQuery) {  
-//         // jQuery is loaded  
-//         alert("Yeah!");
-//     } else {
-//         // jQuery is not loaded
-//         alert("Doesn't Work");
-//     }
-// }
+$('#startgame').click(function() {
+    $('.select').fadeOut();
+    $('.main').fadeIn();
+});
+
+function storeName () {
+    const knightname = $("#namebox2").val();
+    $('#namebox1').html("Knight " + knightname);
+
+};
+

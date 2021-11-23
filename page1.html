@@ -1,3 +1,5 @@
+
+   
 <!DOCTYPE html>
 
 <html>
@@ -21,7 +23,8 @@
 
     </head>
     <body>
-       <h1>Welcome To Your New Adventure</h1>
+       <h1 class="select">Welcome To Your New Adventure</h1>
+       <h1 class="main">Your warrior needs you..</h1>
 
         <div class="petbox">
           <img src="https://media.giphy.com/media/3o7TKMFtQJk885cxzi/giphy.gif" alt="">
@@ -29,16 +32,37 @@
 
 
         <label for="knightname" id="namebox1">What is thou name, knight?</label>
-        <form action="">
-        <div id="inputbox">
 
-              <input type="text" id="namebox2" name="knightname">
-              <input type="submit" value="Submit">
-              
+        <form action="">
+        <div class="select" id="inputbox">
+              <input type="text" id="namebox2" placeholder="Enter name here...">
+              <button onclick="storeName()">Enter</button> 
         </div>
         </form>
-        <div id="navi">
-              <a id="startgame" href="page2.html"> Onward</a>
+        
+        <div class="select" id="navi">
+              <button class="select" id="startgame">Onward</button>
         </div>  
+
+        <div class="main" id="healthProgress">
+          <div class="main" id="healthBar">Health</div>
+        </div>
+
+        <div class="main" id="hungerProgress">
+            <div class="main" id="hungerBar">Hunger</div>
+        </div>
+
+        <div class="main" id="fatigueProgress">
+            <div class="main" id="fatigueBar">Fatigue</div>
+        </div>
+
+        <div class="main" id="age">Days Survived:</div>
+
+        <div class="main" id="btn-group">
+          <button class="main" id="action">Feed</button> <button class="main" id="action">Sleep</button> <button class="main" id="action">Hone the Way of the Sword</button>
+        </div>
+
+
+
     </body>
 </html>

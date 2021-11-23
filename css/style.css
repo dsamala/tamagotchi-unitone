@@ -11,6 +11,11 @@ h1 {
     font-family: 'MedievalSharp';
 }
 
+
+.main {
+    display: none;
+}
+
 .petbox {
     padding: 50px;
     margin: auto;
@@ -145,14 +150,14 @@ h1 {
     font-family: 'MedievalSharp';
 }
 
-.btn-group{
+#btn-group{
     
     display: flex;
     justify-content: center;
         
 }
 
-.action {
+#action {
     margin: 35px;
     font-size: 25px;
     font-family: 'MedievalSharp';
