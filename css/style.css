@@ -159,7 +159,22 @@ h1 {
         
 }
 
-#action {
+
+#feed {
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'MedievalSharp';
+    padding: 10px;
+}
+
+#sleep {
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'MedievalSharp';
+    padding: 10px;
+}
+
+#practice {
     margin: 35px;
     font-size: 25px;
     font-family: 'MedievalSharp';
