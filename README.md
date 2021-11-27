@@ -57,3 +57,7 @@ Process:
   
 
 
+References:
+
+Gif: https://media.giphy.com/media/3o7TKMFtQJk885cxzi/giphy.gif
+Image: deviantart.com/misterhobo1212/art/Dead-Gray-knight-Castle-Crashers-828996155

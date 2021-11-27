@@ -20,7 +20,7 @@ h1 {
     padding: 50px;
     margin: auto;
     height: 500px;
-    width: 250px;
+    width: 500px;
     color: gray;
     border-width: 10px;
     border-color: black;
@@ -179,4 +179,18 @@ h1 {
     font-size: 25px;
     font-family: 'MedievalSharp';
     padding: 10px;
+}
+
+.end {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+#gameover {
+    font-size: 65px;
+    display: none;
+    justify-content: center;
+    font-family: 'MedievalSharp';
 }
