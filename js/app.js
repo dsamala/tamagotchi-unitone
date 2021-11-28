@@ -52,14 +52,21 @@ function gameOver() {
     
 }
 
-function shine() {
-    $body.css('background-color', 'white');
+function restartGame() {
+    $('.end').fadeIn();
+    $('.main').fadeIn();
+    $('img').fadeIn();
+    $('.petbox').fadeIn();
+    startIntervals();
 }
 
-function dimLight () {
+function shine(){
+    $body.css('background-color', '#7a665d');
+}
+
+function dimLight(){
     $body.css('background-color', '#7c142c')
 }
-
 
 
 function startIntervals() {
@@ -125,7 +132,10 @@ function startIntervals() {
         });
 
         $('#brighten').click(shine);
+
         $('#darken').click(dimLight);
+
+        $('#restart').click(restartGame);
 
 
     

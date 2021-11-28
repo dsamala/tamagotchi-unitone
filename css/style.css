@@ -188,20 +188,28 @@ h3 {
         justify-content: center;
         font-family: 'MedievalSharp';
     }
+    
+    #brighten {
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
 
-#brighten {
-    margin: 35px;
-    font-size: 25px;
-    font-family: 'MedievalSharp';
-    padding: 10px;
-}
+    #darken {
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
 
-#darken {
-    margin: 35px;
-    font-size: 25px;
-    font-family: 'MedievalSharp';
-    padding: 10px;
-}
+    #restart {
+        display: none;
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
 
 .dimLights {
     position: absolute;
