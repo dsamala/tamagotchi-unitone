@@ -49,15 +49,22 @@ function gameOver() {
     $('img').fadeOut();
     $('.petbox').fadeOut();
     $('.end').fadeIn();
+    clearAllInterval();
+
+    knight.hunger = 0;
+    knight.fatigue = 0;
+    knight.skill = 100;
     
 }
 
 function restartGame() {
-    $('.end').fadeIn();
+   setTimeout (() => {
     $('.main').fadeIn();
     $('img').fadeIn();
     $('.petbox').fadeIn();
-    startIntervals();
+    $('.end').fadeOut();
+    }, 1000)
+   startIntervals();
 }
 
 function shine(){
@@ -68,6 +75,11 @@ function dimLight(){
     $body.css('background-color', '#7c142c')
 }
 
+function clearAllInterval () {
+    clearInterval(hungerIntervalId);
+    clearInterval(fatigueIntervalId);
+    clearInterval(swordIntervalId);
+}
 
 function startIntervals() {
     hungerIntervalId = setInterval(function() {
