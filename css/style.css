@@ -1,9 +1,6 @@
-/* page1 CSS formatting */
-
 body {
     background-color: #7c142c;
 }
-
 
 h1 {
     text-align: center;
@@ -74,9 +71,7 @@ h1 {
 }
 
 
-/* page 2 CSS formatting */
-
- h3{
+h3 {
     font-size: 65px;
     text-align: center;
     font-family: 'MedievalSharp';
@@ -160,37 +155,61 @@ h1 {
 }
 
 
-#feed {
+    #feed {
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
+
+    #sleep {
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
+
+    #practice {
+        margin: 35px;
+        font-size: 25px;
+        font-family: 'MedievalSharp';
+        padding: 10px;
+    }
+
+    .end {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    #gameover {
+        font-size: 65px;
+        display: none;
+        justify-content: center;
+        font-family: 'MedievalSharp';
+    }
+
+#brighten {
     margin: 35px;
     font-size: 25px;
     font-family: 'MedievalSharp';
     padding: 10px;
 }
 
-#sleep {
+#darken {
     margin: 35px;
     font-size: 25px;
     font-family: 'MedievalSharp';
     padding: 10px;
 }
 
-#practice {
-    margin: 35px;
-    font-size: 25px;
-    font-family: 'MedievalSharp';
-    padding: 10px;
-}
-
-.end {
-    
-    display: flex;
-    justify-content: center;
-}
-
-
-#gameover {
-    font-size: 65px;
-    display: none;
-    justify-content: center;
-    font-family: 'MedievalSharp';
+.dimLights {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    z-index: 100;
 }

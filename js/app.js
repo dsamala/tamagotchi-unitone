@@ -20,6 +20,7 @@ let $hungerProgress = $('#hungerProgress');
 let $fatigueProgress = $('#fatigueProgress');
 let $swordProgress = $('#swordProgress');
 let $age = $('#age');
+let $body = $('body');
 
 let hungerIntervalId = '';
 let fatigueIntervalId = '';
@@ -50,6 +51,15 @@ function gameOver() {
     $('.end').fadeIn();
     
 }
+
+function shine() {
+    $body.css('background-color', 'white');
+}
+
+function dimLight () {
+    $body.css('background-color', '#7c142c')
+}
+
 
 
 function startIntervals() {
@@ -113,6 +123,9 @@ function startIntervals() {
         $('#practice').click(function(){
             knight.practice();
         });
+
+        $('#brighten').click(shine);
+        $('#darken').click(dimLight);
 
 
     
