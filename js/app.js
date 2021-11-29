@@ -1,18 +1,18 @@
 let knight = {
         name: '',
-        hunger: 100,
+        hunger: 0,
         fatigue: 0,
         skill: 100,
         age: 1,
         
         feed() {
-            this.hunger = this.hunger - 5;
+            this.hunger = this.hunger - 4;
         },
         sleep() {
-            this.fatigue = this.fatigue - 5;
+            this.fatigue = this.fatigue - 4;
         },
         practice() {
-            this.skill = this.skill + 3;
+            this.skill = this.skill + 2;
         }
 }
 
@@ -21,6 +21,8 @@ let $fatigueProgress = $('#fatigueProgress');
 let $swordProgress = $('#swordProgress');
 let $age = $('#age');
 let $body = $('body');
+let form1 = "images/redknight.png";
+let form2 = "images/redknightbuff.png";
 
 let hungerIntervalId = '';
 let fatigueIntervalId = '';
@@ -43,29 +45,29 @@ $('#submitname').click(function () {
 $('#startgame').click(function() {
     $('.select').fadeOut();
     $('.main').fadeIn();
-    startIntervals();      
+    startIntervals();
+    $('#pet').attr("src", form1);   
 
 });
 
 function gameOver() {
-    $('.main').fadeOut();
-    $('img').fadeOut();
-    $('.petbox').fadeOut();
-    $('.end').fadeIn();
-    clearAllInterval();
-
-    knight.hunger = 0;
-    knight.fatigue = 0;
-    knight.skill = 100;
-    
+            $('.main').fadeOut();
+            $('img').fadeOut();
+            $('.petbox').fadeOut();
+            $('.end').fadeIn();
+            clearAllInterval();
+        knight.hunger = 0;
+        knight.fatigue = 0;
+        knight.skill = 100;
+        knight.age = 1;
 }
 
 function restartGame() {
-   setTimeout (() => {
-    $('.main').fadeIn();
-    $('img').fadeIn();
-    $('.petbox').fadeIn();
-    $('.end').fadeOut();
+    setTimeout (() => {
+        $('.main').fadeIn();
+        $('img').fadeIn();
+        $('.petbox').fadeIn();
+        $('.end').fadeOut();
     }, 1000)
    startIntervals();
 }
@@ -92,7 +94,7 @@ function startIntervals() {
             gameOver();
 
         } else {
-            knight.hunger = knight.hunger + 6;
+            knight.hunger = knight.hunger + 3;
             $hungerProgress.css('width', knight.hunger + '%');
         }
     }, 1000);
@@ -104,7 +106,7 @@ function startIntervals() {
             gameOver();
             
         } else {
-            knight.fatigue = knight.fatigue + 7;
+            knight.fatigue = knight.fatigue + 2;
             $fatigueProgress.css('width', knight.fatigue + '%');
         }
     }, 1500);
@@ -116,7 +118,7 @@ function startIntervals() {
             gameOver();
             
         } else {
-            knight.skill = knight.skill - 8;
+            knight.skill = knight.skill - 3;
             $swordProgress.css('width', knight.skill + '%');
         }
     }, 3000);
@@ -124,14 +126,22 @@ function startIntervals() {
     ageIntervalId = setInterval(function(){
         if(knight.hunger >=100 || knight.fatigue >= 100 || knight.skill <= 0) {
             clearInterval(ageIntervalId);
-        } else {
+        }  
+        else if (knight.age >= 10) {
+            $('#pet').attr("src", form2);  
+        }  
+        else {
             knight.age++;
             $age.html('Days Survived: ' + knight.age);
-        }        
+        }
+
     }, 5000)
 
-}
+   
 
+};
+
+ 
 
     //action buttons
         $('#feed').click(function(){
