@@ -1,6 +1,6 @@
 let knight = {
         name: '',
-        hunger: 0,
+        hunger: 100,
         fatigue: 0,
         skill: 100,
         age: 1,

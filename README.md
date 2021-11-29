@@ -1,6 +1,4 @@
 # tamagotchi-unitone
-Project deliverable for GA SEIR Unit One
-
 
 Objective:
 To create a working game using elements of HTML, CSS, JS, jQuery, and APIs/AJAX.
@@ -21,9 +19,8 @@ Process:
   INITIAL PAGE 
   As a user:
     I should be able to name my pet
+    I should be able to start the game
     
-    
-  -TRANSITION-
   
   MAIN PAGE
   As a user:
@@ -49,15 +46,15 @@ Process:
 3.) Code Approach
 
   Object Oriented Programming 
-    Initialize the tamagotchis as a preset class
+    Initialize the tamagotchis as a preset object
     Properties of tamagotchi - name, hunger, sleep, boredom, age
-    2-4 presets are made as options
-    Actions are methods inside which interact with 
+    Actions are methods inside which are then called to continue playing the game
   
 
 
 References:
-
+  
+Functions and Interval: https://github.com/makmizi15 's Tamagotchi Project
 Gif: https://media.giphy.com/media/3o7TKMFtQJk885cxzi/giphy.gif
 Image: deviantart.com/misterhobo1212/art/Dead-Gray-knight-Castle-Crashers-828996155
 All sounds: Zapsplat.com
