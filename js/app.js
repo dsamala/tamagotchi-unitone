@@ -27,6 +27,9 @@ let fatigueIntervalId = '';
 let swordIntervalId = '';
 let ageIntervalId = '';
 
+let feedSound = new Audio("sounds/zapsplat_catoon_bite_munch_single_002_56564.mp3");
+let sleepSound = new Audio("sounds/zapsplat_human_female_snore_single_002_13484.mp3");
+let swordSound = new Audio("sounds/zapsplat_warfare_sword_medieval_heavy_draw_scabbard_001_12088.mp3");
 
 
 $('#submitname').click(function () {
@@ -133,14 +136,17 @@ function startIntervals() {
     //action buttons
         $('#feed').click(function(){
             knight.feed();
+            feedSound.play();
         });
 
         $('#sleep').click(function(){
             knight.sleep();
+            sleepSound.play();
         });
 
         $('#practice').click(function(){
             knight.practice();
+            swordSound.play();
         });
 
         $('#brighten').click(shine);

@@ -2,7 +2,6 @@
 Project deliverable for GA SEIR Unit One
 
 
-
 Objective:
 To create a working game using elements of HTML, CSS, JS, jQuery, and APIs/AJAX.
 
@@ -61,3 +60,4 @@ References:
 
 Gif: https://media.giphy.com/media/3o7TKMFtQJk885cxzi/giphy.gif
 Image: deviantart.com/misterhobo1212/art/Dead-Gray-knight-Castle-Crashers-828996155
+All sounds: Zapsplat.com
