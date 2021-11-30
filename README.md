@@ -1,7 +1,7 @@
 # tamagotchi-unitone
 
 Objective:
-To create a working game using elements of HTML, CSS, JS, jQuery, and APIs/AJAX.
+To create a working game using elements of HTML, CSS, JS,and JQuery
 
 Process:
 
