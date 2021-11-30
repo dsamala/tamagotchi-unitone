@@ -29,8 +29,6 @@ Process:
       > I should be able to let my pet sleep
       > I should be able to play with my pet
     > I should be able to see how old my pet is
-    
-  -TRANSITION-
   
   EVENT PAGE
   As a user: 
@@ -53,8 +51,8 @@ Process:
 
 
 References:
-  
-Functions and Interval: https://github.com/makmizi15 's Tamagotchi Project
+
+Javascript Functions and Interval Info: https://github.com/makmizi15 's Tamagotchi Project
 Gif: https://media.giphy.com/media/3o7TKMFtQJk885cxzi/giphy.gif
-Image: deviantart.com/misterhobo1212/art/Dead-Gray-knight-Castle-Crashers-828996155
+Image: deviantart.com/misterhobo1212/art/Dead-Gray-knight-Castle-Crashers-828996155, https://castlecrashers.fandom.com/wiki/Castle_Crashers_Wiki
 All sounds: Zapsplat.com
